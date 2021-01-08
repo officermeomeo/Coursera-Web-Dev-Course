@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="style.css">
+<title> Assignment Solution For Module 2 </title>
+
+<h1> Our Menu For Today </h1>
+<br>
+<br>
+<marquee id="marq" direction="right" hspace="25%" bgcolor="">Menu is down below </marquee>
+
+
+</head>
+
+
+
+<body>
+
+<section id="section1" class="col-lg-3 col-md-6 col-sd-12">
+<h4 class="heading"> Chicken</h4>
+
+<br>
+<br>
+<br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo pulvinar ipsum ultricies laoreet. Duis sollicitudin magna vitae sapien egestas, eget bibendum libero maximus. Mauris faucibus dictum tellus, at aliquam metus iaculis et. Aenean non enim scelerisque, ornare est id, porttitor justo. Aenean ut ex vel dui faucibus malesuada. Vivamus blandit dictum elit, eu accumsan est consectet
+</section>
+
+
+<section id="section2" class="col-lg-3 col-md-6 col-sd-12">
+<h4 class="heading"> Beef</h4>
+<br>
+<br>
+<br>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo pulvinar ipsum ultricies laoreet. Duis sollicitudin magna vitae sapien egestas, eget bibendum libero maximus. Mauris faucibus dictum tellus, at aliquam metus iaculis et. Aenean non enim scelerisque, ornare est id, porttitor justo. Aenean ut ex vel dui faucibus malesuada. Vivamus blandit dictum elit, eu accumsan est consectet
+</section>
+
+
+<section id="section3" class="col-lg-3 col-md-6 col-sd-12">
+<h4 class="heading"> Sushi</h4>
+
+<br>
+<br>
+<br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo pulvinar ipsum ultricies laoreet. Duis sollicitudin magna vitae sapien egestas, eget bibendum libero maximus. Mauris faucibus dictum tellus, at aliquam metus iaculis et. Aenean non enim scelerisque, ornare est id, porttitor justo. Aenean ut ex vel dui faucibus malesuada. Vivamus blandit dictum elit, eu accumsan est consectet
+</section>
+
+
+</body>
+
+
+</html>
