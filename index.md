@@ -1,37 +1,292 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
 
-You can use the [editor on GitHub](https://github.com/officermeomeo/Coursera-Web-Dev-Course/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<title> Assignment Solution For Module 2 </title>
+<style type="css">
 
-### Markdown
+*{
+  box-sizing: border-box;
+  }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+marquee{
+  color: #FF3366;
+  font-family: Helvetica; font-size: 15px; font-weight: bold;
+   
+       } 
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+h1{ 
+ font-family: castellar, elephant; text-align:center;
+ font-size: 26.25px; color:#ff0000;
+  }
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+.heading { 
+ 
+ font-family: castellar, elephant; 
 
-[Link](url) and ![Image](src)
-```
+ font-size: 18.5px; font-weight: bold; color:#0f0d03; 
+position: relative;
+top:2px; right: 30px;
+float:right;
+            }
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/officermeomeo/Coursera-Web-Dev-Course/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+section {
+position: relative;
+float: left;
+top: 50px;
+left :50px;
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+font-family: Helvetica,Playfair Display,Merriweather; 
+font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+#section1 { 
+border: 1px solid black;
+  background-color: #C0C0C0;
+  
+  
+  color: #fcfc00; 
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom:20px;
+  margin-top: 20px;
+  padding:5px;
+  }
+
+
+
+
+#section2 { 
+  border: 1px solid black;
+  background-color: #6a5acd;
+   
+  color: #5efff7;
+margin-bottom:20px;
+margin-top:20px;
+  margin-right: 10px;
+  margin-left: 10px;
+padding:5px;
+
+}
+
+
+
+
+
+#section3 { 
+border: 1px solid black;
+background-color: #0000ff;
+color: #f7faf8;
+ margin-right: 10px;
+ margin-left: 10px;
+ margin-bottom:20px; 
+ margin-top:20px;
+ padding:5px;
+
+}
+
+/*for Large devices only*/
+
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/* for Medium devices only */
+@media (min-width:768px) and (max-width:991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+/* for Small devices only */
+@media (max-width:767px) {
+  .col-sd-1, .col-sd-2, .col-sd-3, .col-sd-4, .col-sd-5, .col-sd-6, .col-sd-7, .col-sd-8, .col-sd-9, .col-sd-10, .col-sd-11, .col-sd-12 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-sd-1 {
+    width: 8.33%;
+  }
+  .col-sd-2 {
+    width: 16.66%;
+  }
+  .col-sd-3 {
+    width: 25%;
+  }
+  .col-sd-4 {
+    width: 33.33%;
+  }
+  .col-sd-5 {
+    width: 41.66%;
+  }
+  .col-sd-6 {
+    width: 50%;
+  }
+  .col-sd-7 {
+    width: 58.33%;
+  }
+  .col-sd-8 {
+    width: 66.66%;
+  }
+  .col-sd-9 {
+    width: 74.99%;
+  }
+  .col-sd-10 {
+    width: 83.33%;
+  }
+  .col-sd-11 {
+    width: 91.66%;
+  }
+  .col-sd-12 {
+    width: 100%;
+  }
+}
+
+</style>
+
+
+<h1> Our Menu For Today </h1>
+<br>
+<br>
+<marquee id="marq" direction="right" hspace="25%" bgcolor="">Menu is down below </marquee>
+
+
+</head>
+
+
+
+<body>
+
+<section id="section1" class="col-lg-3 col-md-6 col-sd-12">
+<h4 class="heading"> Chicken</h4>
+
+<br>
+<br>
+<br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo pulvinar ipsum ultricies laoreet. Duis sollicitudin magna vitae sapien egestas, eget bibendum libero maximus. Mauris faucibus dictum tellus, at aliquam metus iaculis et. Aenean non enim scelerisque, ornare est id, porttitor justo. Aenean ut ex vel dui faucibus malesuada. Vivamus blandit dictum elit, eu accumsan est consectet
+</section>
+
+
+<section id="section2" class="col-lg-3 col-md-6 col-sd-12">
+<h4 class="heading"> Beef</h4>
+<br>
+<br>
+<br>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo pulvinar ipsum ultricies laoreet. Duis sollicitudin magna vitae sapien egestas, eget bibendum libero maximus. Mauris faucibus dictum tellus, at aliquam metus iaculis et. Aenean non enim scelerisque, ornare est id, porttitor justo. Aenean ut ex vel dui faucibus malesuada. Vivamus blandit dictum elit, eu accumsan est consectet
+</section>
+
+
+<section id="section3" class="col-lg-3 col-md-6 col-sd-12">
+<h4 class="heading"> Sushi</h4>
+
+<br>
+<br>
+<br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo pulvinar ipsum ultricies laoreet. Duis sollicitudin magna vitae sapien egestas, eget bibendum libero maximus. Mauris faucibus dictum tellus, at aliquam metus iaculis et. Aenean non enim scelerisque, ornare est id, porttitor justo. Aenean ut ex vel dui faucibus malesuada. Vivamus blandit dictum elit, eu accumsan est consectet
+</section>
+
+
+</body>
+
+
+</html>
